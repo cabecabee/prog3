@@ -42,4 +42,44 @@ public class Controlador {
         jLabel4.setText("<html> <div style = 'width:350px;'>"+
                 "II - menosprezo ou discriminação à condição de mulher.");
     }
+    public void actionViolenciaDomestica(){
+        jLabel1.setText("<html> <div style = 'width:350px;'>"+
+                "De acordo com o artigo 5o da Lei Maria da Penha (Lei nº 11.340/2006),");
+        jLabel2.setText("<html> <div style = 'width:350px;'>"+
+                "Violência doméstica e familiar contra a mulher é");
+        jLabel3.setText("<html> <div style = 'width:350px;'>"+
+                "“qualquer ação ou omissão baseada no gênero que lhe cause morte, lesão,");
+        jLabel4.setText("<html> <div style = 'width:350px;'>"+
+                "sofrimento físico, sexual ou psicológico e dano moral ou patrimonial”.");
+    }
+    public void actionCulturaMachismo(){
+        jLabel1.setText("<html> <div style = 'width:350px;'>"+
+                "A cultura do machismo consiste em valores que colocam o homem em posição de superioridade.");
+        jLabel2.setText("<html> <div style = 'width:350px;'>"+
+                "Naturaliza comportamentos de controle e violência contra mulheres.");
+        jLabel3.setText("<html> <div style = 'width:350px;'>"+
+                "Está presente em atitudes, linguagem e até estruturas sociais.");
+        jLabel4.setText("<html> <div style = 'width:350px;'>"+
+                "Contribui diretamente para a perpetuação da violência de gênero.");
+    }
+    public void actionDesigualdadeGenero(){
+        jLabel1.setText("<html> <div style = 'width:400px;'>"+
+                "Desigualdade de gênero refere-se, normalmente, às diferenças de direitos e oportunidades entre homens e mulheres.");
+        jLabel2.setText("<html> <div style = 'width:350px;'>"+
+                "Esta pode ser observada no mercado de trabalho, na política e na vida social.");
+        jLabel3.setText("<html> <div style = 'width:350px;'>"+
+                "É uma das bases estruturais da violência contra a mulher.");
+        jLabel4.setText("<html> <div style = 'width:350px;'>"+
+                "Limita a autonomia e vida da mulher.");
+    }
+    public void actionPoliticasPublicas(){
+        jLabel1.setText("<html> <div style = 'width:350px;'>"+
+                "Políticas públicas são ações do Estado para prevenir e combater a violência contra mulheres.");
+        jLabel2.setText("<html> <div style = 'width:350px;'>"+
+                "Incluem leis, delegacias especializadas e campanhas de conscientização.");
+        jLabel3.setText("<html> <div style = 'width:400px;'>"+
+                "Entre estas está, por exemplo, o PL 3880/2024, de Laura Carneiro, Maria do Rosário e Fernanda Melchionna.");
+        jLabel4.setText("<html> <div style = 'width:450px;'>"+
+                "Esse PL altera a Lei nº 11.340 (Lei Maria da Penha), para incluir a violência vicária dentre as definições de violência doméstica e familiar.");
+    }
 }
